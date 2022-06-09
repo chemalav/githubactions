@@ -10,7 +10,12 @@ jobs:
         run: |
           pwd
           ls -a 
-
+      - name: checkout code from git 
+        uses: actions/checkout@v1
+      - name: list of files after checkout
+        run: |
+          pwd
+          ls -a 
       - name: sample js actions
         id: greeting1
         uses: actions/hello-world-javascript-action@v1
