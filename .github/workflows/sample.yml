@@ -1,7 +1,7 @@
 name: Shell Commands
 
 on: [push]
-
+#this is the sample one
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
